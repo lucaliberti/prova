@@ -1,0 +1,45 @@
+div{
+    display: block;
+    border-radius: 10px;
+    /*width: 500px;*/
+    /*height: 260px;*/
+    background-color:#e6f8fe;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding:10px; 
+    text-align: center;
+
+}
+
+img {
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+
+table {
+    border: 2px solid black;
+}
+
+th {
+    background-color: #03384a;
+    color:white;
+    font-weight: bold;
+    text-align:center;
+  }
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+  }
+
+ td {
+    text-align:left;
+}
+
+
+ .righeDispari {
+     background-color:#9de4fb;
+}

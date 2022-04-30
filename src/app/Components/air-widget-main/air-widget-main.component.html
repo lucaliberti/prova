@@ -1,0 +1,24 @@
+
+    
+    <div> 
+        <img  src="../../../assets/fresh-air.png" alt="fresh air">
+        <h3> Report Qualità dell'Aria</h3> 
+       
+
+
+        <hr>
+        <div   *ngIf="isFething===true">Loading data ... </div>
+        
+        <table  *ngIf="isFething===false" >
+            <th>Data</th>
+            <th>Descrizione</th>
+
+            <tr *ngFor="let item of reportDataArr ; let dispari=odd "
+                [ngClass]="{ 'righeDispari': dispari }"  >
+
+              <td   > {{item.data | date:'yyyy-MM-dd'}} </td>
+              <td> {{item.descrizione}}</td>
+            </tr>
+        </table>
+       
+    </div>
